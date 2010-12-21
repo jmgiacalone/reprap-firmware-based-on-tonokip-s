@@ -1,3 +1,16 @@
+Firmware based on johnnyr-Tonokip-Firmware-ad612ac
+
+communicates well with repsnapper at 115200 baud.
+axes move as expected, end stops work.
+G28 is untested.
+Extruder is stepper based, with MAX6675 thermocouple circuit, and
+PID control.
+Heated bed uses thermistor and has bang-bang control.
+
+************************************************************************
+Original README
+************************************************************************
+
 Tonokip RepRap firmware rewrite based off of Hydra-mmm firmware.
 
 TODO:
